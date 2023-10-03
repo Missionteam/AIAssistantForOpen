@@ -4,18 +4,18 @@
 また、一定期間経過後(2週間程)、こちらのリポジトリは非公開にさせて頂きます。
 
 実際のプロダクトはこちら  
-ver1:http://ai-assistant-web.site/pages/dashboard.html  
-ver2:http://ai-assistant-web.site/pages/mail.html
+ver1：http://ai-assistant-web.site/pages/dashboard.html  
+ver2：http://ai-assistant-web.site/pages/mail.html
 
 ## 開発期間、開発状況
-こちらのプロジェクトの主な技術アセットとしては、
-frontend:next.js (Typescript),
-auth:Firebase Auth,
-DB:Firestore,
-backend:django,
-となっております。また、インフラとしては、digital oceanというVPS(仮想専用サーバー)のサービスを利用しています。
+こちらのプロジェクトの主な技術アセットとしては、  
+frontend：next.js (Typescript),  
+auth：Firebase Auth,  
+DB：Firestore,  
+backend：django,  
+となっております。また、インフラとしては、digital oceanというVPS(仮想専用サーバー)のサービスを利用しています。  
 また、UIの一部にmuiを使用しています。  
-react.js歴1か月で開発を開始し、2か月ほどで個人で開発しました。
+react.js歴1か月で開発を開始し、2か月ほどで一人で開発しました。
 
 ## 注意点
 MVPをできるだけ速く開発することを目的としたプロジェクトであり、また、個人開発のみを想定しているため、
