@@ -1,0 +1,93 @@
+.whiteBox{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 14px 0;
+    width: 100%;
+    margin-bottom: 10px;
+    flex:1;
+}
+
+.blackBox{
+    border: 1px solid rgb(109, 109, 109);
+    display: flex;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.blackBox img{
+    width: 800px;
+    margin: auto;
+}
+
+.check{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkedItem{
+    display: flex;
+}
+
+.checkedItem p{
+    width: 260px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.checkedItem img{
+    width:26px;
+
+}
+
+.assistantImg{
+    margin-top: 10px;
+    width: 30px;
+
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;    
+}
+
+.file{
+    margin-top: 10px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: gray !important;
+    display: flex;
+}
+.file p{
+    margin:0 8px 0 5px;
+}
+
+.file svg{
+    width: 18px;
+}
+
+.button{
+    margin:40px 0 0;
+    width: 80%;
+}
+
+.closeIcon{
+    margin-left: auto;
+    justify-self: end;
+    width: 300px;
+}
+
+.text{
+    color:rgb(63, 67, 100);
+
+}
+
+.title{
+    padding: 0 0 18px;
+    font-size: 16px;
+    font-weight: 500;
+}

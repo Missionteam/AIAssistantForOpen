@@ -1,0 +1,36 @@
+
+.backGroundColor{
+    background-color: #fff;
+    color: #2b83e2;
+    border: 1px solid #e3e3e3;
+    left: 200px;
+}
+
+/* .main{
+    background-color: #dfdfdf;
+    padding: 3vw;
+} */
+
+.border{
+    border-top: 1px solid #e3e3e3;
+}
+
+.dashBoard {
+    margin-left: 200px;
+    min-height: 100vh;
+    min-width: calc(100vw - 280px);
+}
+
+
+.toolBar{
+    height: 50px;
+    /* background-color: #fff; */
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-80{
+    right:80px;
+}

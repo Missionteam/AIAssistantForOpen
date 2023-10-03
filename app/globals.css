@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.header-one {
+    font-size: 32px;
+}
+
+body{
+    background-color: #F8F7FF;
+}
+
+a {
+    text-decoration: none !important;  
+    color: inherit;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-bottom:0 !important;
+}
+
+button{
+    background-color: inherit;
+}
+
+.MuiButton-containedPrimary{
+    background-color: #1976d2 !important;
+    color: white;
+}
+
+textarea:focus, input:focus{
+    box-shadow: none;
+}

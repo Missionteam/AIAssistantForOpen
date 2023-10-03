@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/app/*": ["app/*"],
+      "@/lib/*": ["lib/*"],
+      "@/styles/*": ["styles/*"]
+    },
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    // "noEmitOnError": false,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/pages/voice/dead", "lib/firebase-auth/AuthContext.tsx",
+  //  "app/api/messages/dead", 
+  // "app/api/auth/get-google-auth-token/route",
+  //  "lib/google-calendar/CodeTest",
+    // "app/api/google-calendar/route",
+    //  "app/opengraph-image"
+    ],
+  "exclude": ["node_modules"]
+}

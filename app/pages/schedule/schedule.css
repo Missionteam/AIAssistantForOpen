@@ -1,0 +1,15 @@
+.MuiDivider-root{
+    opacity: 1;
+}
+
+.rbc-time-header{
+    width: 800px;
+}
+
+div{
+    align-items: stretch;
+}
+
+.rbc-label{
+    font-size: 8px;
+}

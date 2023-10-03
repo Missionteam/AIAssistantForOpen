@@ -1,0 +1,63 @@
+.mailSnippetDate {
+  color: rgb(0, 0, 0);
+  /* border-top: #e3e3e3 1px solid;
+  border-bottom: #e3e3e3 1px solid; */
+  background-color: #f9f9f9;
+}
+.mailSnippetMainBox {
+  background-color: rgb(255, 255, 255);
+  border-top: #e3e3e3 1px solid;
+  border-bottom: #e3e3e3 1px solid;
+  color: rgb(45, 45, 45);
+}
+
+.mailBody {
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin: 40px 0;
+  width: calc(100% - 540px);
+  min-width: 440px;
+}
+
+.mailHeader{
+  background-color: #ffffff;
+  height: 48px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.userIcon {
+  background-color: blueviolet;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  color: white;
+}
+
+.myIcon{
+  background-color: rgb(43, 141, 253);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  color: white;
+}
+
+.mailMain{
+  font-size: 16px;
+  /* color:#3b3bff; */
+}
+
+/* .container{
+  min-height: 36vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+} */

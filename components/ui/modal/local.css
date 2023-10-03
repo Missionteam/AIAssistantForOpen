@@ -1,0 +1,14 @@
+.modalWidth{
+    max-width: none !important;
+    width: 90vw !important;
+}
+
+.mailBodyModal{
+    margin-right:5%;
+    width: 500px;
+    /* transform: translateX(100px); */
+}
+
+.modal-backdrop {
+    background-color: rgba(42, 42, 42, 0.612); /* 例として半透明のダークグレーに変更 */
+}   

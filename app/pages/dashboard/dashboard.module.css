@@ -1,0 +1,30 @@
+.body{
+    background-color: #f7f7f7;
+}
+
+.dashBoard {
+    margin-left: 200px;
+    min-height: 100vh;
+    width: calc(100vw - 200px);
+    padding: 10px  30px 10px 20px;
+}
+
+.noAccount{
+    position: absolute; /* or absolute */
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.noAccount button{
+    margin: 30px auto;
+    background-color: #1976d2 !important;
+}
+
+.tap{
+    position:absolute;
+    top:100px;
+    left: calc(20% - 100px);
+    
+}

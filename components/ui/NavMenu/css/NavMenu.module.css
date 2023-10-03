@@ -1,0 +1,46 @@
+.navMenu{
+    background-color: #111827;
+    width: 200px;
+    height: 100vh;
+}
+
+.navCategoryTitle{
+    color: #111827;
+    padding: 34px 30px 10px;
+}
+
+.navCategoryTitle h6{
+    color: #818CF8;
+    font-size: 13px;
+    
+}
+
+.navCategoryTitle p{
+    color:rgba(255, 255, 255, 0.434);
+    font-size: 11px;
+}
+
+.navItem{
+    padding:10px 30px;
+    color: rgba(255, 255, 255, 0.806);
+    cursor: pointer;
+}
+
+.navItemSelected{   
+    background-color: rgba(255, 255, 255, 0.20);
+    color:#fefefe;
+}
+
+
+
+.navItem img{
+    width: 20px;
+    margin-right: 8px;
+}
+.navItem p{
+    margin: 0;
+}
+
+.MuiSvgIcon-root{
+   cursor: pointer;
+}

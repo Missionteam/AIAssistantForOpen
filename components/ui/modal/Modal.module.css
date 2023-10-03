@@ -1,0 +1,95 @@
+.modalHeader {
+    width:100%;
+    background-color: #1976d2;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.main{
+    /* padding: 8px 35px; */
+    /* width: 200px; */
+    position: relative; 
+    display: flex;
+    /* overflow: visible; */
+    align-items: flex-start;
+    justify-content: start;
+    background-color: #f7f7f7;
+}
+
+.container img{
+    width: 45px;
+}
+.container p{
+    padding: 8px 32px 0;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.btns button{
+    margin: 3px 10px;
+    width: 140px;
+}
+
+.blue button{
+    background-color: #1976d2 !important;
+    color: white;
+    
+}
+
+.MuiButton-contained{
+    background-color: #1976d2 !important;
+} 
+
+.mailContainer{
+    width: 100%;
+    max-width: 600px;
+    min-height: 32px;
+    margin: 10px 0px;
+    padding:20px 60px;
+    box-shadow: 0 4px 18px rgba(47, 43, 61, 0.1),0 0 transparent,0 0 transparent;
+    background-color: #fff;
+    color:#353535;
+}
+
+.replyContainer{
+    
+    background-color: white;
+    width: 500px;
+    box-shadow: 0 4px 18px rgba(47, 43, 61, 0.1);
+}
+
+.informationBox{
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    
+}
+
+.nextDocArrow{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    right: -40px;
+}
+
+.priviousDocArrow{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: -40px;
+}
+
+
+.navText{
+    position: absolute;
+    top: -50px;
+    padding:10px;
+}
+
+.right80{
+    right:60px;
+    width:30%;
+}

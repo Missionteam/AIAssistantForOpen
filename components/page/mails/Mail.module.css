@@ -1,0 +1,171 @@
+.title{
+    padding: 20px 0 8px 66px;
+    display: flex;
+    justify-content: start;
+}
+
+.title h2{
+    
+    font-size: 1.35rem;
+    font-weight: 400;
+    flex:1;
+}
+
+.title svg{
+    width:18px;
+    margin: 0 8px;
+}
+
+.from{
+    font-weight: 500;
+}
+
+.to{
+    font-weight: 400;
+    font-size: 13px;
+    color:rgb(101, 101, 101);
+    margin-right: 7px;
+}
+
+.fromBox{
+    display: inline-flex;
+}
+
+.toBox{
+    display: flex;
+}
+
+.toBox svg{
+    color: gray;
+    width: 18px;
+    
+}
+
+.body{
+    display: flex;
+    padding:20px 20px 20px 60px;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    max-width: 700px;
+}
+
+.body p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btns{
+    margin:60px;
+}
+
+.reply{
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+    min-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.replyHeader{
+    background-color: #F6F8FC;
+    padding: 6px 8px;
+    display: flex;
+}
+
+
+.replyHeaderRight{
+    margin-left: auto;
+    display: flex;
+    
+}
+
+.replyHeaderRight img{
+    width: 18px;
+    
+}
+
+.replyHeaderRight p{
+    font-size: 12px;
+    color: #2c2c2ce1;
+    margin: 0 9px;
+}
+
+.replyHeaderRight svg{
+    width: 17px;
+    color: gray;
+    margin: 0 3px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #e0e2e7;
+    outline: none;
+    width: 95%;
+    /* padding: 10px 10px; */
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.inputContainer {
+    position: relative;
+    border-bottom: 1px solid #e0e2e7;
+    width: 95%;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  .inputContainer input {
+    border: none;
+    padding-left: 50px;
+    outline: none;
+    width: 95%;
+  }
+
+  .label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: grey;
+  } 
+
+  .inputBody{
+    min-height: 300px;
+    border: none;
+    width: 100%;
+    padding:16px;
+  }
+
+  .btmTools{
+        display: flex;
+        width: 100%;
+        padding: 10px;
+  }
+
+  .btmTools svg{
+      width: 18px;
+      
+      margin: 0 7px;
+  }
+
+  .card{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .notion{
+    width: min-content;
+    background-color: transparent;
+  }
+
+
+  .elevation{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }

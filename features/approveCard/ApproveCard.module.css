@@ -1,0 +1,65 @@
+.approveCard{
+    /* width: 320px; */
+    max-width: 360px;
+    background-color: white;
+    margin:30px 0 10px;
+    box-shadow: 0 4px 18px rgba(64, 63, 69, 0.1),0 0 transparent,0 0 transparent;
+    border-color: rgba(47, 43, 61, 0.16);
+    border-style: solid;
+    border-width: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.approveCard div{
+    align-items: flex-start;
+}
+
+.title{
+    padding: 30px 20px 20px;
+}
+
+.title img{
+    width: 48px;
+}
+
+.title h3{
+    font-size: 20px;
+    padding: 10px 10px 0px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.title p{
+    padding-left: 10px;
+}
+
+.main {
+    padding: 8px 35px 0 28px;
+}
+
+.main img{
+    width: 30px;
+}
+.main p{
+    padding-left: 16px;
+}
+
+.btns{
+    padding:10px 0px;
+}
+
+.btns button{
+    margin: 10px;
+    width: 140px;
+    font-size: 12px;
+}
+
+.blue{
+    background-color: #1976d2 !important;
+    color: white;
+    
+}
+
+.MuiButton-contained{
+    background-color: #1976d2 !important;
+} 

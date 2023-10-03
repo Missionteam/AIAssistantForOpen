@@ -1,0 +1,11 @@
+div{
+    justify-content: start;
+}
+
+hr{
+    opacity: 1;
+}
+
+.MuiTab-root{
+    max-height: 40px;
+}

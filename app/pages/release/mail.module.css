@@ -1,0 +1,81 @@
+.backGround{
+    background-color: #F6F8FC;
+    /* height: 100vh; */
+}
+.header{
+    display: flex;
+    justify-content: start;
+    padding:10px;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+    margin: 0 14px;
+}
+
+.header h6{
+    font-size: 18px;
+    margin-right: 100px;
+}
+
+.icons{
+    margin-left: auto;
+    display: flex;
+}
+
+.icons svg{
+    margin: 12px;
+}
+
+.main{
+    display: flex;
+}
+
+.tools{
+    padding: 2px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-items: start;
+}
+
+.tools svg{
+    margin: 6px;
+    width: 20px;
+}
+
+.tools img{
+    width: 22px;
+    margin: 14px;
+}
+
+.write{
+    background-color: #c2e7ff;
+    padding:12px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.write :hover{
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+}
+
+.add{
+    margin-top: 20px;
+}
+
+.mainBox{
+    flex: 1;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .forUse{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
